@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>科学吃喝分析助手</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🥗 科学吃喝分析助手</h1>
+            <p class="subtitle">让AI帮你分析今天的饮食是否健康营养</p>
+        </header>
+
+        <main>
+            <div class="chat-container">
+                <div class="messages" id="messages">
+                    <div class="message assistant">
+                        <div class="message-content">
+                            <p>你好！我是你的饮食分析助手。请告诉我你今天吃了什么，我会帮你分析营养是否均衡。</p>
+                            <p class="hint">例如：早餐吃了一个鸡蛋、一杯牛奶和两片全麦面包</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-area">
+                    <textarea
+                        id="foodInput"
+                        placeholder="请输入你今天吃的食物，例如：早餐吃了鸡蛋、牛奶，午餐吃了米饭、青菜、鸡肉..."
+                        rows="3"
+                    ></textarea>
+                    <button id="analyzeBtn" class="analyze-btn">
+                        <span class="btn-text">开始分析</span>
+                        <span class="btn-loading" style="display: none;">分析中...</span>
+                    </button>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>由阿里云百炼智能体提供技术支持</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

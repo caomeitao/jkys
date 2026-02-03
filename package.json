@@ -1,0 +1,17 @@
+{
+  "name": "food-analysis-app",
+  "version": "1.0.0",
+  "description": "科学吃喝分析助手 - 基于阿里云百炼智能体",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "food",
+    "nutrition",
+    "ai",
+    "bailian"
+  ],
+  "author": "",
+  "license": "MIT"
+}
